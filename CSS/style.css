@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+.p1{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.37);
+    width: 8 0%;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 43px;
+    background: #171717;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+    flex-wrap: wrap;
+}
+
+
+nav{
+    background-color: yellowgreen;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.navbar a {
+    display: flex;
+    padding: 10px 10px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #7e7ace;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+    width: 100%;
+    background: url(https://www.segurmaniazurekin.eus/a/2020/11/segurmania_mascotas_destacada.jpg) no-repeat center;
+    background-size: cover;
+    padding: 30 px;
+}
+
+.title {
+    margin-bottom: 1px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: yellowgreen;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pa {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid green;
+    color: #fff;
+    text-decoration: none;
+    background: yellowgreen;
+}
+
+.btn:hover {
+    background-color: #7e7ace;
+    
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 53px;
+    background: #1f1d1d
+}
+.mision{
+    padding: 53px;
+    background: #1f1d1d
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+.box-container img{
+    max-height: 100%
+}
+
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background: #10101062;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+    margin: 2rem;   
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #9acd32;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: yellowgreen;
+
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.about {
+    background: #171717;
+}
+
+
+
+@media (max-width: 1280px) {
+
+    .title {
+        margin-bottom: 0;
+        font-size: 30px;
+    }
+
+    .sau {
+        height: 140vh;
+    }
+    nav{
+        width: 100%;
+        position: fixed;
+    }
+    .navbar a {
+        display: flex;
+        padding: 10px 10px;
+        font-size: 11px;
+    }
+    .header {
+        width: 100%;
+        padding: 30 px;
+    }
+    .p1{
+        font-size: 1.1rem;
+    }
+    .two iframe{
+        width: 70%;
+        height: 40%;
+      }
+     .pa{
+        padding:11px 11px ;
+     }
+     .mision{
+        padding:11px 11px ;
+     }
+}
+
+     
+
+    .contact form {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin: 0 auto;
+        padding-top: 50px;
+      }
+      
+      .contact input,
+      textarea,
+      select {
+        margin: 10px 0px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #7b7b7d83;
+      }
+      
+      .contact button {
+        background-color: #cace7a;
+        padding: 10px;
+        font-weight: bold;
+        border: 1px solid #7b7b7d83;
+        margin-bottom: 15px;
+        width: 50%;
+        margin: 10px auto;
+      }
+      
+.field{
+    padding: 10px;
+    width: 450px;
+}
+.field :focus{
+    background-color: black;
+
+}
+.titulo{
+    background-color: blueviolet;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: greenyellow;
+}
+.center-content{
+    text-align: center;
+}
+.titulo{
+    background-color: blueviolet;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: greenyellow;
+
+}
+.froggy{
+    width: 1490px;
+}
+footer{
+    max-height: 20%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #100f10ec;
+    color: white;
+}
+footer h5{
+    color: #aaad7a;
+}
+.one{
+    text-align: left    ;
+}
+.three img{
+    margin-right: 30px;
+}
+.card{
+    border: 1px rgba(0, 0, 0, 0.322) solid;
+    width: 250px;
+    height: 350px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.products h1{
+    font-size: 30px;
+    margin-top: 80px;
+    text-align: center;
+}
+.p-body{
+    background-color: white;
+}
+.products p{
+    text-align: left;
+}
+.p-footer{
+    background-color: rgb(43, 41, 41);
+}
+.card img{
+    max-height: 55%
+}
